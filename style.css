@@ -1,8 +1,18 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
 .buy-now-button{
     background-color: black;
     color:white;
     border-radius:10px;
     padding:10px 20px;
+}
+.buy-now-button:hover{
+    background-color: lightgreen;
+    color:Black;
+    border-radius:10px;
+    padding:7px 15px;
+    transition:2s ease-in-out all;
 }
 .container{
     margin-bottom: 50px;
@@ -10,20 +20,68 @@
 .background-carousel{
     padding: 10px 30px;
     background-color:lightgreen;
+    border-radius:10px;
+}
+#beauty{
+    background-color: lightyellow;
+    text-align: center;
+    box-shadow: 3px 3px 60px 10px lightgrey;
+    border-radius: 20px 1px 20px 1px;
+    margin-bottom: 25px;
+    height: 225px;
+    padding: 40px;
+}
+#shoe{
+    background-color: lightsteelblue;
+    text-align: center;
+    box-shadow: 5px 5px 60px 10px lightgray;
+    border-radius: 20px 1px 20px 1px;
+    margin-bottom: 25px;
+    height: 225px;
+    padding:40px;
+}
+#bag{
+    background-color: lightskyblue;
+    text-align: center;
+    box-shadow: 5px 5px 60px 10px lightgray;
+    border-radius: 1px 20px 1px 20px;
+    margin-bottom: 25px;
+    height: 225px;
+    width:400px;
+    padding:40px;
+}
+.cat1{
+    font-size: 50px;
+    text-align: center;
+    border-bottom:2px solid lightsalmon;
+    padding: 30px 10px;
+    display: inline-block;
 }
 .card{
     box-shadow: 5px 5px 10px lightgreen;
 }
-#navbarNav{
-    float:right;
+.card-footer{
+    text-align: center;
 }
 #images{
     width:600px;
     height:400px;
 }
-#subscribe{
-    background-color: lightsalmon;
+#contactus{
+    background-image:url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width:900px;
     height: 300px;
+    border: 2px solid lightsalmon;
     border-radius: 25px;
+}
+#aboutus{
+    
+}
+#aboutus .card{
+    box-shadow: 5px 5px 20px 15px lightgreen ;
+}
+footer p{
+    text-align: center;
 }
