@@ -34,6 +34,18 @@ body{
     height: 225px;
     padding: 40px;
 }
+#beauty:hover{
+    background-color: lightyellow;
+    text-align: center;
+    box-shadow: 3px 3px 60px 10px lightgrey;
+    border-radius: 20px 1px 20px 1px;
+    margin-bottom: 25px;
+    height: 200px;
+    padding: 40px;
+    transform: translateX(-10px);
+    transition: .5s all ease;
+}
+
 #shoe{
     background-color: lightsteelblue;
     text-align: center;
@@ -42,6 +54,17 @@ body{
     margin-bottom: 25px;
     height: 225px;
     padding:40px;
+}
+#shoe:hover{
+    background-color: lightsteelblue;
+    text-align: center;
+    box-shadow: 5px 5px 60px 10px lightgray;
+    border-radius: 20px 1px 20px 1px;
+    margin-bottom: 25px;
+    height: 200px;
+    padding:40px;
+    transform: translateX(10px);
+    transition: .5s all ease;
 }
 #bag{
     background-color: lightskyblue;
@@ -52,6 +75,28 @@ body{
     height: 225px;
     width:400px;
     padding:40px;
+}
+#bag:hover{
+    background-color: lightskyblue;
+    text-align: center;
+    box-shadow: 5px 5px 60px 10px lightgray;
+    border-radius: 1px 20px 1px 20px;
+    margin-bottom: 25px;
+    height: 200px;
+    width:400px;
+    padding:40px;
+    transform: translateY(10px);
+    transition: .5s all ease;
+}
+#images{
+    width:600px;
+    height:400px;
+}
+#images:hover{
+    width:650px;
+    height:450px;
+    transform: translateY(-10px);
+    transition: .5s all ease;
 }
 .border-bottom{
     width:200px;
@@ -72,10 +117,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
 }
-#images{
-    width:600px;
-    height:400px;
-}
+
 #contactus{
     background-image:url("image/biography-bg.png");
     background-repeat: no-repeat;
