@@ -11,3 +11,19 @@
     padding: 10px 30px;
     background-color:lightgreen;
 }
+.card{
+    box-shadow: 5px 5px 10px lightgreen;
+}
+#navbarNav{
+    float:right;
+}
+#images{
+    width:600px;
+    height:400px;
+}
+#subscribe{
+    background-color: lightsalmon;
+    width:900px;
+    height: 300px;
+    border-radius: 25px;
+}

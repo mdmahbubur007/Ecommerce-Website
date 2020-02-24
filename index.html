@@ -10,12 +10,14 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="logo">
+              <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -88,101 +90,93 @@
           </div>
     </div>
 
-    <div class="container shoes" id="shoes">
-      <h3>Shoes</h3>
+    <div class="container smartphone" id="product">
+      <h3>Smartphone</h3>
       <div class="card-deck">
         <div class="card">
-          <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
+          <img src="phone/phone-1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Supply 350</h5>
+            <h5 class="card-title">iPhone 11 Pro</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
-            <h3>$ 120.00</h3>
-            <button class="buy-now-button">Buy Now >></button>
+            <h3>$ 999</h3>
+            <button class="buy-now-button">Buy Now -></button>
           </div>
         </div>
         <div class="card">
-          <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
+          <img src="phone/phone-2.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Nike 360</h5>
+            <h5 class="card-title">Samsung Galaxy Note 10+</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <h3>$ 320.00</h3>
-            <button class="buy-now-button">Buy Now >></button>
+            <h3>$ 799</h3>
+            <button class="buy-now-button">Buy Now -></button>
           </div>
         </div>
         <div class="card">
-          <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
+          <img src="phone/phone-3.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Red Airmax</h5>
+            <h5 class="card-title">Nokia Pro </h5>
             <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
-            <h3>$ 350.00</h3>
-            <button class="buy-now-button">Buy Now >></button>
+            <h3>$ 699</h3>
+            <button class="buy-now-button">Buy Now -></button>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container backpack" id="backpack">
-      <h3>Backpack</h3>
+    <div class="container laptop" id="product">
+      <h3>Laptop</h3>
       <div class="card-deck">
         <div class="card ">
-          <img src="bags/bag-1.png" class="card-img-top" alt="...">
+          <img src="laptop/product-1.png" class="card-img-top" alt="...">
           <div class="card-body card-text-center">
-            <h5 class="card-title">Ison Backpack</h5>
-            <h3>$ 120.00</h3>
+            <h5 class="card-title">Asus Vivo Book</h5>
+            <h3>$ 999.00</h3>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button">Buy Now -></button>
           </div>  
         </div>
         <div class="card">
-          <img src="bags/bag-2.png" class="card-img-top" alt="...">
+          <img src="laptop/product-2.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Biaowang Backpack</h5>
-            <h3>$ 320.00</h3>
+            <h5 class="card-title">Razer Blade 15</h5>
+            <h3>$ 2799.00</h3>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button">Buy Now -></button>
           </div>  
         </div>
         <div class="card">
-          <img src="bags/bag-3.png" class="card-img-top" alt="...">
+          <img src="laptop/product-3.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Dxynzu Smart</h5>
-            <h3>$ 160.00</h3>
+            <h5 class="card-title">Xiaomi Mi NoteBool Pro</h5>
+            <h3>$ 979.00</h3>
             <p class="card-text">This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button">Buy Now -></button>
           </div>  
         </div>
       </div>
     </div>
 
     <div class="container categories">
+        <h1>Categories</h1>
         <div class="row">
-          <div class="col-md-4">
-            <div class="cat1 d-flex justify-content-between align-items-center">
-              <h1>Watch</h1>
-              <img src="categories/watch.png" alt="">
-            </div>
+          <div class="col-md-3 d-flex align-items-center">
+              <img src="/Categories/bag.png" alt="">
           </div>
-          <div class="col-md-4">
-            <div class="cat2 d-flex justify-content-between align-items-center">
-              <h1>Bag</h1>
-              <img src="categories/bag.png" alt="">
-            </div>
+          <div class="col-md-3 d-flex flex-column"> 
+              <img src="/Categories/perfume.png" alt="">
+              <img src="/Categories/shoe.png" alt="">
           </div>
-          
-          <div class="col-md-4">
-            <div class="cat3 d-flex justify-content-between align-items-center">
-              <h1>Shoes</h1>
-              <img src="categories/shoes.png" alt="">
-            </div>
+          <div class="col-md-6">
+            <img id="images" src="Categories/pale-order.png" alt="">
           </div>
         </div>
-      </div>
+    </div>
 
 
     <div class="container d-flex align-items-center justify-content-center" id="subscribe">
