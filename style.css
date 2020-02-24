@@ -8,11 +8,11 @@ body{
     padding:10px 20px;
 }
 .buy-now-button:hover{
-    background-color: lightgreen;
+    background-image: linear-gradient(180deg, cyan, blue);
     color:Black;
     border-radius:10px;
     padding:7px 15px;
-    transition:2s ease-in-out all;
+    transition:1s ease-in-out all;
 }
 .container{
     margin-bottom: 70px;
@@ -82,14 +82,47 @@ body{
     background-size: cover;
     width:900px;
     height: 300px;
-    border: 2px solid lightsalmon;
+    border: 5px double lightsalmon;
     border-radius: 25px;
+}
+#contactus:hover{
+    background-image:url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:800px;
+    height: 300px;
+    border: 5px solid lightsalmon;
+    border-radius: 25px;
+    transform: translateX(-15px);
+    transition: .5s all ease;
 }
 #aboutus{
     padding-top: 30px;
 }
 #aboutus .card{
     box-shadow: 5px 5px 20px 15px lightgreen ;
+}
+#aboutus h1{
+    animation: mahbub 3s infinite;
+}
+
+@keyframes mahbub{
+    0%{
+        color: coral;
+      
+    }
+    25%{
+        color: lightgreen;
+    }
+    50%{
+        color:lightseagreen;
+    }
+    75%{
+        color: darkgreen;
+    }
+    100%{
+        color: coral;
+    }
 }
 footer p{
     text-align: center;
